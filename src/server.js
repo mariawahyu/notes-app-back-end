@@ -12,7 +12,7 @@ const init = async () => {
     });
     server.route(routes);
     await server.start();
-    console.log(`Server berjalan pada ${server.info.uri}`);
+    console.log(`Server kelompok 2 sedang berjalan pada ${server.info.uri}`);
 };
 
 init();
